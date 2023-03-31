@@ -10,3 +10,15 @@
     height: 50px;
     width: 50px;
 }
+.bookmark-btn{
+    padding: 0;
+    margin-left: 15px;
+    background-color: white;
+}
+.bookmark-btn:hover{
+    background-color: white;
+}
+.hov:hover{
+    background-color: white;
+    color: rgb(240, 182, 34);
+}
