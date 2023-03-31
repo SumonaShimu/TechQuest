@@ -6,6 +6,7 @@ import { faBookmark, faBookReader, faCoffee } from '@fortawesome/free-solid-svg-
 const Blog = (props) => {
     const {id,cover, author, title, name, time } = props.blog;
     const bookMarked=props.books;
+    const markAsRead=props.markAsRead;
     return (
         <div className='blogs container rounded mb-4 pb-4'>
             <img className='w-100 m-2 rounded' src={cover} alt="cover" />
@@ -28,9 +29,8 @@ const Blog = (props) => {
             <small className='grey'>#programming </small>
             <small className='grey'>#beginners </small>
 
-            <button className='d-block w-100 btn btn-light'>Mark as Read
+            <button onClick={()=>markAsRead(id,time)} className='d-block w-100 btn btn-light'>Mark as Read
             <FontAwesomeIcon icon={faBookReader} color="#016969" className='ms-2'/>
-            
             </button>
         </div>
     );
