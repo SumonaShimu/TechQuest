@@ -3,6 +3,10 @@
   padding: 2rem;
   text-align: center; */
 }
+.body-containers{
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+}
 
 .logo {
   height: 6em;

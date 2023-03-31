@@ -10,7 +10,7 @@ const Navbar = () => {
                     Thoughtful Quest
                 </a>
                 <div style={{ height: '50px', width: '50px' }}>
-                    <img className='img-fluid rounded-circle' src="https://randomuser.me/api/portraits/men/22.jpg" alt="" />
+                    <img className='img-fluid rounded-circle' src="https://randomuser.me/api/portraits/men/22.jpg" alt="user" />
                 </div>
             </div>
         </div>
