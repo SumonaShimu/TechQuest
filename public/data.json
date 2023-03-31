@@ -1,0 +1,35 @@
+[
+    {
+      "id": "RP001",
+      "cover": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=1380&t=st=1680243810~exp=1680244410~hmac=19de9f772ffa7797679138ff0ddd1884588dfcd69851d083a747881e834c303a",
+      "author": "https://randomuser.me/api/portraits/men/7.jpg",
+      "time": 6,
+      "name": "Rae Patterson",
+      "title":"How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "ML002",
+      "cover": "https://img.freepik.com/free-photo/3d-rendering-biorobots-concept_23-2149524399.jpg?w=1060&t=st=1680243939~exp=1680244539~hmac=926f6cf57b800e1ba3abd12a5d3b1d28e6350b71fd904e4ce901c912537e64d5",
+      "author": "https://randomuser.me/api/portraits/men/11.jpg",
+      "time": 10,
+      "name": "Mejia Lester",
+      "title":"How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "AT003",
+      "cover": "https://img.freepik.com/premium-photo/composition-man-touching-virtual-screen-with-scope-scanning-data-processing_1134-7654.jpg",
+      "author": "https://randomuser.me/api/portraits/women/3.jpg",
+      "time": 15,
+      "name": "Angelica Todd",
+      "title":"How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "RL004",
+      "cover": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+      "author": "https://randomuser.me/api/portraits/men/9.jpg",
+      "time": 12,
+      "name": "Reyes Lee",
+      "title":"How to get your first job as a self-taught programmer"
+    }
+    
+  ]
