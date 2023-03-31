@@ -1,5 +1,5 @@
 .blogs{
-    background-color: rgb(197, 197, 243);
+    border-bottom: 0.25rem solid rgb(142, 142, 142);
 }
 .author-container{
     display: flex;
