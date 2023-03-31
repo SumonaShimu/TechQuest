@@ -3,8 +3,9 @@ import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark, faBookReader, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-const Blog = ({ blog }) => {
-    const { id, cover, author, title, name, time } = blog;
+const Blog = (props) => {
+    const {id,cover, author, title, name, time } = props.blog;
+    const bookMarked=props.books;
     return (
         <div className='blogs container rounded mb-4 pb-4'>
             <img className='w-100 m-2 rounded' src={cover} alt="cover" />
@@ -20,7 +21,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <small className='grey'>
                     {time} min read
-                    <button className='bookmark-btn'><FontAwesomeIcon icon={faBookmark} color="#016969" size="lg" className='hov'/></button>
+                    <button className='bookmark-btn' onClick={()=>bookMarked(props.blog)}><FontAwesomeIcon icon={faBookmark} color="#016969" size="lg" className='hov'/></button>
                 </small>
             </div>
 

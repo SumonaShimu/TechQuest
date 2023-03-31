@@ -12,18 +12,29 @@ function App() {
       .then(res => res.json())
       .then(data => setBlogs(data))
   }, [blogs])
+
+  const readtime = 0;
+  const [markedblogs, setMarkedblogs] = useState([])
+
+  const bookMarked = (blog) => {
+    const newmarkedblogs = [...markedblogs, blog];
+    setMarkedblogs(newmarkedblogs);
+    console.log(newmarkedblogs);
+  }
+
   return (
     <div className="App container">
       <Navbar></Navbar>
       <div className='body-containers'>
         <div>
           {
-            blogs.map(blog => <Blog blog={blog} key={blog.id}></Blog>)
+            blogs.map(blog => <Blog blog={blog} key={blog.id} books={bookMarked}></Blog>)
           }
         </div>
-
-        <Bookmark></Bookmark>
+        
+        <Bookmark marked={markedblogs}></Bookmark>
       </div>
+
     </div>
   )
 }
