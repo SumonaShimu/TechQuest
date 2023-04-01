@@ -44,6 +44,10 @@
 .grey{
   color: rgb(59, 59, 59);
 }
+
+.heading{
+  border: 2px solid rgb(85, 199, 201);
+}
 @media only screen and (max-width: 768px) {
   .body-containers{
     grid-template-columns:1fr;

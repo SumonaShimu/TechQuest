@@ -6,6 +6,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar';
 import Blog from './Components/Body/Blog/Blog';
 import Bookmark from './Components/Body/Bookmark/Bookmark';
+import QuesAns from './Components/Questions/QuesAns';
 
 
 
@@ -56,6 +57,10 @@ function App() {
           }
         </div>
         <Bookmark marked={markedblogs} time={readtime}></Bookmark>
+      </div>
+      <div className='my-5'>
+        <h2 className='heading d-block text-center p-3 rounded-3 shadow-lg my-5'>Frequently Asked Questions</h2>
+        <QuesAns></QuesAns>
       </div>
     </div>
   )
