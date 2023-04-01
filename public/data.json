@@ -5,7 +5,7 @@
       "author": "https://randomuser.me/api/portraits/men/7.jpg",
       "time": 6,
       "name": "Rae Patterson",
-      "title":"Microsoft acquires OpenAI to advance breakthroughs in artificial intelligence"
+      "date":"Mar 19 (1 Days ago)"
     },
     {
       "id": "ML002",
@@ -13,7 +13,8 @@
       "author": "https://randomuser.me/api/portraits/men/11.jpg",
       "time": 10,
       "name": "Mejia Lester",
-      "title":"AI-powered robot assistants set to transform healthcare industry"
+      "title":"AI-powered robot assistants set to transform healthcare industry",
+      "date":"Mar 14 (6 Days ago)"
     },
     {
       "id": "AT003",
@@ -21,7 +22,8 @@
       "author": "https://randomuser.me/api/portraits/women/3.jpg",
       "time": 15,
       "name": "Angelica Todd",
-      "title":"New machine learning model predicts solar storms with high accuracy"
+      "title":"New machine learning model predicts solar storms with high accuracy",
+      "date":"Mar 15 (5 Days ago)"
     },
     {
       "id": "RL004",
@@ -29,7 +31,8 @@
       "author": "https://randomuser.me/api/portraits/men/9.jpg",
       "time": 12,
       "name": "Reyes Lee",
-      "title":"Google unveils new programming language designed for quantum computers"
+      "title":"Google unveils new programming language designed for quantum computers",
+      "date":"Mar 20 (Today)"
     }
     
   ]

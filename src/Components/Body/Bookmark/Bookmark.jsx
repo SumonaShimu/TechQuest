@@ -5,7 +5,7 @@ const Bookmark = ({ marked, time}) => {
     let cnt = 0;
     return (
         <div className='bookmarks fw-bold'>
-            <ToastContainer autoClose={2000}/>
+            <ToastContainer autoClose={2000} position="top-center"/>
             <h4 className='common heading'>Spent time on read : {time} min</h4>
             <h4 className='common heading'>Bookmarked Blogs : {marked.length}</h4>
             {

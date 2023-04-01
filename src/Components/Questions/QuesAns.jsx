@@ -12,8 +12,8 @@ const QuesAns = () => {
                 <div className='answers fw-semibold'>useState() is a built-in hook in React that allows functional components to have state. It returns an array with two values: the current state value and a function that updates the state value. The function to update the state can be passed a new state value, or a callback function that returns a new state value based on the previous state value.</div>
             </div>
             <div className="ques">
-                <h5 className='text-center'>(3) What else useEffect() can do but Data Loading?</h5>
-                <div className='answers fw-semibold'>The useEffect() hook can be used for other purposes besides data loading. It can be used to subscribe to events, set up and clean up timers, detect changes in the browser's location, or perform other side effects. It can also be used to perform cleanup tasks before a component is unmounted, such as closing a WebSocket connection or cancelling a subscription.
+                <h5 className='text-center'>(3) What else useEffect() can do other than fetching data.</h5>
+                <div className='answers fw-semibold'>The useEffect() hook can be used for other purposes besides fetching data. It can be used to subscribe to events, set up and clean up timers, detect changes in the browser's location, or perform other side effects. It can also be used to perform cleanup tasks before a component is unmounted, such as closing a WebSocket connection or cancelling a subscription.
 
                 </div>
             </div>
