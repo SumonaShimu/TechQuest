@@ -25,7 +25,7 @@ function App() {
     const newmarkedblogs = [...markedblogs, blog];
     const found = markedblogs.find(element => element.id === blog.id);
     if(found) {
-      toast("You Have Already Bookmarked This Blog!!");
+      toast("You've already marked it before!");
     }
     setMarkedblogs(newmarkedblogs);
   }
@@ -37,7 +37,7 @@ function App() {
     setTime(readtime+time);
     const found = readBlogs.find(element => element === id);
     if(found) {
-      toast.success("Already read it.");
+      toast.success("Already read this!");
     }
     else{
       const newreadblogs=[...readBlogs,id];
