@@ -10,6 +10,11 @@
     border-radius: 15px;
     padding: 20px 10px;
 }
+.ques:hover{
+    box-shadow:
+    inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff; /* right cyan */
+}
 .answers{
     margin: 20px 0;
     padding: 10px;

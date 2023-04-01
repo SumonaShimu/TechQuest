@@ -25,10 +25,8 @@ function App() {
     const newmarkedblogs = [...markedblogs, blog];
     const found = markedblogs.find(element => element.id === blog.id);
     if(found) {
-      console.log('found')
       toast("Already marked before!");
     }
-    // console.log(markedblogs)
     setMarkedblogs(newmarkedblogs);
   }
 
